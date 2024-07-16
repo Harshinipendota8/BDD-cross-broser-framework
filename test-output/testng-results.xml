@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-12T21:03:57 IST" name="Suite" finished-at="2024-07-12T21:06:27 IST" duration-ms="150241">
+    <groups>
+    </groups>
+    <test started-at="2024-07-12T21:03:57 IST" name="Test3" finished-at="2024-07-12T21:06:27 IST" duration-ms="150073">
+      <class name="TestLayer.Loginpage">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestLayer.Loginpage@2eae8e6e]" started-at="2024-07-12T21:03:57 IST" name="setUp" finished-at="2024-07-12T21:04:06 IST" duration-ms="8888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFunctionality()[pri:0, instance:TestLayer.Loginpage@2eae8e6e]" started-at="2024-07-12T21:04:06 IST" name="loginFunctionality" finished-at="2024-07-12T21:04:13 IST" duration-ms="6659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestLayer.Loginpage@2eae8e6e]" started-at="2024-07-12T21:06:27 IST" name="teardown" finished-at="2024-07-12T21:06:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestLayer.Loginpage -->
+      <class name="TestLayer.HomePage">
+        <test-method signature="HomepageTitle()[pri:2, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:04:13 IST" name="HomepageTitle" finished-at="2024-07-12T21:04:13 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomepageTitle -->
+        <test-method signature="HomepageURL()[pri:3, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:04:13 IST" name="HomepageURL" finished-at="2024-07-12T21:04:13 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomepageURL -->
+        <test-method signature="PIMpage()[pri:4, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:04:13 IST" name="PIMpage" finished-at="2024-07-12T21:04:15 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PIMpage -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:04:17 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:04:32 IST" duration-ms="15586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[middlename]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:04:32 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:04:49 IST" duration-ms="16478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chavla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:04:49 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:05 IST" duration-ms="16087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[reddy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:05:05 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:22 IST" duration-ms="16844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sravan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[karan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[charana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:05:22 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:38 IST" duration-ms="16712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pragathi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pranavi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[patil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:05:38 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:54 IST" duration-ms="15655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[prerana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:05:54 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:06:11 IST" duration-ms="16655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mena]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[reddy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:06:11 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:06:27 IST" duration-ms="16086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalpana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chavla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[roy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method is-config="true" signature="quittheapp()[pri:0, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:06:27 IST" name="quittheapp" finished-at="2024-07-12T21:06:27 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quittheapp -->
+      </class> <!-- TestLayer.HomePage -->
+    </test> <!-- Test3 -->
+    <test started-at="2024-07-12T21:03:57 IST" name="Test1" finished-at="2024-07-12T21:06:27 IST" duration-ms="150241">
+      <class name="TestLayer.Loginpage">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestLayer.Loginpage@60bd273d]" started-at="2024-07-12T21:03:57 IST" name="setUp" finished-at="2024-07-12T21:04:07 IST" duration-ms="9697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFunctionality()[pri:0, instance:TestLayer.Loginpage@60bd273d]" started-at="2024-07-12T21:04:07 IST" name="loginFunctionality" finished-at="2024-07-12T21:04:13 IST" duration-ms="6657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestLayer.Loginpage@60bd273d]" started-at="2024-07-12T21:06:27 IST" name="teardown" finished-at="2024-07-12T21:06:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestLayer.Loginpage -->
+      <class name="TestLayer.HomePage">
+        <test-method signature="HomepageTitle()[pri:2, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:04:13 IST" name="HomepageTitle" finished-at="2024-07-12T21:04:13 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomepageTitle -->
+        <test-method signature="HomepageURL()[pri:3, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:04:13 IST" name="HomepageURL" finished-at="2024-07-12T21:04:14 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomepageURL -->
+        <test-method signature="PIMpage()[pri:4, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:04:14 IST" name="PIMpage" finished-at="2024-07-12T21:04:16 IST" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PIMpage -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:04:17 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:04:32 IST" duration-ms="15610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[middlename]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:04:32 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:04:49 IST" duration-ms="16250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chavla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:04:49 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:06 IST" duration-ms="17362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[reddy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:05:06 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:22 IST" duration-ms="15808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sravan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[karan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[charana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:05:22 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:38 IST" duration-ms="16092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pragathi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pranavi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[patil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:05:38 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:54 IST" duration-ms="16220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[prerana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:05:54 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:06:11 IST" duration-ms="16477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mena]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[reddy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:06:11 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:06:27 IST" duration-ms="16559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalpana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chavla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[roy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method is-config="true" signature="quittheapp()[pri:0, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:06:27 IST" name="quittheapp" finished-at="2024-07-12T21:06:27 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quittheapp -->
+      </class> <!-- TestLayer.HomePage -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
