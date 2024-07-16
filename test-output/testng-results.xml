@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+<testng-results retried="4" ignored="0" total="28" passed="23" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-12T21:03:57 IST" name="Suite" finished-at="2024-07-12T21:06:27 IST" duration-ms="150241">
+  <suite started-at="2024-07-16T13:19:25 IST" name="Suite" finished-at="2024-07-16T13:22:55 IST" duration-ms="209546">
     <groups>
     </groups>
-    <test started-at="2024-07-12T21:03:57 IST" name="Test3" finished-at="2024-07-12T21:06:27 IST" duration-ms="150073">
+    <test started-at="2024-07-16T13:19:25 IST" name="Test3" finished-at="2024-07-16T13:22:01 IST" duration-ms="155254">
       <class name="TestLayer.Loginpage">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestLayer.Loginpage@2eae8e6e]" started-at="2024-07-12T21:03:57 IST" name="setUp" finished-at="2024-07-12T21:04:06 IST" duration-ms="8888" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestLayer.Loginpage@2eae8e6e]" started-at="2024-07-16T13:19:25 IST" name="setUp" finished-at="2024-07-16T13:19:37 IST" duration-ms="11770" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,29 +18,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginFunctionality()[pri:0, instance:TestLayer.Loginpage@2eae8e6e]" started-at="2024-07-12T21:04:06 IST" name="loginFunctionality" finished-at="2024-07-12T21:04:13 IST" duration-ms="6659" status="PASS">
+        <test-method signature="loginFunctionality()[pri:0, instance:TestLayer.Loginpage@2eae8e6e]" started-at="2024-07-16T13:19:37 IST" name="loginFunctionality" finished-at="2024-07-16T13:19:45 IST" duration-ms="7748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunctionality -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestLayer.Loginpage@2eae8e6e]" started-at="2024-07-12T21:06:27 IST" name="teardown" finished-at="2024-07-12T21:06:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestLayer.Loginpage@2eae8e6e]" started-at="2024-07-16T13:22:01 IST" name="teardown" finished-at="2024-07-16T13:22:01 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestLayer.Loginpage -->
       <class name="TestLayer.HomePage">
-        <test-method signature="HomepageTitle()[pri:2, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:04:13 IST" name="HomepageTitle" finished-at="2024-07-12T21:04:13 IST" duration-ms="19" status="PASS">
+        <test-method signature="HomepageTitle()[pri:2, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-16T13:19:45 IST" name="HomepageTitle" finished-at="2024-07-16T13:19:45 IST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomepageTitle -->
-        <test-method signature="HomepageURL()[pri:3, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:04:13 IST" name="HomepageURL" finished-at="2024-07-12T21:04:13 IST" duration-ms="54" status="PASS">
+        <test-method signature="HomepageURL()[pri:3, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-16T13:19:45 IST" name="HomepageURL" finished-at="2024-07-16T13:19:45 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomepageURL -->
-        <test-method signature="PIMpage()[pri:4, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:04:13 IST" name="PIMpage" finished-at="2024-07-12T21:04:15 IST" duration-ms="2002" status="PASS">
+        <test-method signature="PIMpage()[pri:4, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-16T13:19:45 IST" name="PIMpage" finished-at="2024-07-16T13:19:47 IST" duration-ms="2292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PIMpage -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:04:17 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:04:32 IST" duration-ms="15586" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-16T13:19:47 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:20:04 IST" duration-ms="16812" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:04:32 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:04:49 IST" duration-ms="16478" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-16T13:20:04 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:20:20 IST" duration-ms="16195" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,7 +82,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:04:49 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:05 IST" duration-ms="16087" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-16T13:20:20 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:20:37 IST" duration-ms="16933" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:05:05 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:22 IST" duration-ms="16844" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-16T13:20:37 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:20:53 IST" duration-ms="15669" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,7 +124,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:05:22 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:38 IST" duration-ms="16712" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-16T13:20:53 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:21:10 IST" duration-ms="16628" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:05:38 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:54 IST" duration-ms="15655" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-16T13:21:10 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:21:27 IST" duration-ms="17228" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,7 +166,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:05:54 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:06:11 IST" duration-ms="16655" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-16T13:21:27 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:21:44 IST" duration-ms="16853" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -187,7 +187,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:06:11 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:06:27 IST" duration-ms="16086" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-16T13:21:44 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:22:00 IST" duration-ms="16467" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -208,15 +208,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method is-config="true" signature="quittheapp()[pri:0, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-12T21:06:27 IST" name="quittheapp" finished-at="2024-07-12T21:06:27 IST" duration-ms="358" status="PASS">
+        <test-method is-config="true" signature="quittheapp()[pri:0, instance:TestLayer.HomePage@2cf3d63b]" started-at="2024-07-16T13:22:00 IST" name="quittheapp" finished-at="2024-07-16T13:22:01 IST" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quittheapp -->
       </class> <!-- TestLayer.HomePage -->
     </test> <!-- Test3 -->
-    <test started-at="2024-07-12T21:03:57 IST" name="Test1" finished-at="2024-07-12T21:06:27 IST" duration-ms="150241">
+    <test started-at="2024-07-16T13:19:25 IST" name="Test1" finished-at="2024-07-16T13:22:55 IST" duration-ms="209546">
       <class name="TestLayer.Loginpage">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestLayer.Loginpage@60bd273d]" started-at="2024-07-12T21:03:57 IST" name="setUp" finished-at="2024-07-12T21:04:07 IST" duration-ms="9697" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestLayer.Loginpage@60bd273d]" started-at="2024-07-16T13:19:25 IST" name="setUp" finished-at="2024-07-16T13:19:34 IST" duration-ms="9017" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -227,29 +227,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginFunctionality()[pri:0, instance:TestLayer.Loginpage@60bd273d]" started-at="2024-07-12T21:04:07 IST" name="loginFunctionality" finished-at="2024-07-12T21:04:13 IST" duration-ms="6657" status="PASS">
+        <test-method signature="loginFunctionality()[pri:0, instance:TestLayer.Loginpage@60bd273d]" started-at="2024-07-16T13:19:34 IST" name="loginFunctionality" finished-at="2024-07-16T13:19:42 IST" duration-ms="7098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunctionality -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestLayer.Loginpage@60bd273d]" started-at="2024-07-12T21:06:27 IST" name="teardown" finished-at="2024-07-12T21:06:27 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestLayer.Loginpage@60bd273d]" started-at="2024-07-16T13:22:55 IST" name="teardown" finished-at="2024-07-16T13:22:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestLayer.Loginpage -->
       <class name="TestLayer.HomePage">
-        <test-method signature="HomepageTitle()[pri:2, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:04:13 IST" name="HomepageTitle" finished-at="2024-07-12T21:04:13 IST" duration-ms="21" status="PASS">
+        <test-method signature="HomepageTitle()[pri:2, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:19:42 IST" name="HomepageTitle" finished-at="2024-07-16T13:19:42 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomepageTitle -->
-        <test-method signature="HomepageURL()[pri:3, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:04:13 IST" name="HomepageURL" finished-at="2024-07-12T21:04:14 IST" duration-ms="15" status="PASS">
+        <test-method signature="HomepageURL()[pri:3, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:19:42 IST" name="HomepageURL" finished-at="2024-07-16T13:19:42 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomepageURL -->
-        <test-method signature="PIMpage()[pri:4, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:04:14 IST" name="PIMpage" finished-at="2024-07-12T21:04:16 IST" duration-ms="1997" status="PASS">
+        <test-method signature="PIMpage()[pri:4, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:19:42 IST" name="PIMpage" finished-at="2024-07-16T13:19:44 IST" duration-ms="2222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PIMpage -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:04:17 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:04:32 IST" duration-ms="15610" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:19:47 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:20:03 IST" duration-ms="15920" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -270,7 +270,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:04:32 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:04:49 IST" duration-ms="16250" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:20:03 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:20:20 IST" duration-ms="16905" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -291,7 +291,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:04:49 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:06 IST" duration-ms="17362" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:20:20 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:20:37 IST" duration-ms="17410" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -312,7 +312,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:05:06 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:22 IST" duration-ms="15808" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:20:37 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:20:53 IST" duration-ms="15900" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -333,7 +333,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:05:22 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:38 IST" duration-ms="16092" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:20:53 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:21:09 IST" duration-ms="16426" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -354,7 +354,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:05:38 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:05:54 IST" duration-ms="16220" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:21:09 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:21:27 IST" duration-ms="17400" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -375,7 +375,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:05:54 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:06:11 IST" duration-ms="16477" status="PASS">
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:21:27 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:21:44 IST" duration-ms="17030" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,7 +396,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:06:11 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-12T21:06:27 IST" duration-ms="16559" status="PASS">
+        <test-method retried="true" signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:21:44 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:22:15 IST" duration-ms="30908" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -414,10 +414,395 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='firstName']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [254cb5b9e17be6ddd99b1668a146489a, findElement {using=name, value=firstName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\HARSHINI PENDOTA\A...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50258/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 254cb5b9e17be6ddd99b1668a146489a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='firstName']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [254cb5b9e17be6ddd99b1668a146489a, findElement {using=name, value=firstName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\HARSHINI PENDOTA\A...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50258/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 254cb5b9e17be6ddd99b1668a146489a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at TestLayer.HomePage.AddEmployee(HomePage.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
-        <test-method is-config="true" signature="quittheapp()[pri:0, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-12T21:06:27 IST" name="quittheapp" finished-at="2024-07-12T21:06:27 IST" duration-ms="256" status="PASS">
+        <test-method retried="true" signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:22:15 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:22:45 IST" duration-ms="30009" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalpana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chavla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[roy]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Add Employee']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [254cb5b9e17be6ddd99b1668a146489a, findElement {using=xpath, value=//a[text()='Add Employee']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\HARSHINI PENDOTA\A...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50258/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 254cb5b9e17be6ddd99b1668a146489a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Add Employee']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [254cb5b9e17be6ddd99b1668a146489a, findElement {using=xpath, value=//a[text()='Add Employee']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\HARSHINI PENDOTA\A...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50258/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 254cb5b9e17be6ddd99b1668a146489a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at TestLayer.HomePage.AddEmployee(HomePage.java:47)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method retried="true" signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:22:45 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:22:55 IST" duration-ms="9814" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalpana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chavla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[roy]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.xpath: //a[text()='Add Employee']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[text()='Add Employee']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at TestLayer.HomePage.AddEmployee(HomePage.java:47)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method retried="true" signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:22:55 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:22:55 IST" duration-ms="6" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalpana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chavla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[roy]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [254cb5b9e17be6ddd99b1668a146489a, findElement {using=xpath, value=//a[text()='Add Employee']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\HARSHINI PENDOTA\A...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50258/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 254cb5b9e17be6ddd99b1668a146489a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [254cb5b9e17be6ddd99b1668a146489a, findElement {using=xpath, value=//a[text()='Add Employee']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\HARSHINI PENDOTA\A...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50258/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 254cb5b9e17be6ddd99b1668a146489a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at TestLayer.HomePage.AddEmployee(HomePage.java:47)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method signature="AddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:22:55 IST" name="AddEmployee" data-provider="UserTestData" finished-at="2024-07-16T13:22:55 IST" duration-ms="5" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalpana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chavla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[roy]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [254cb5b9e17be6ddd99b1668a146489a, findElement {using=xpath, value=//a[text()='Add Employee']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\HARSHINI PENDOTA\A...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50258/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 254cb5b9e17be6ddd99b1668a146489a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [254cb5b9e17be6ddd99b1668a146489a, findElement {using=xpath, value=//a[text()='Add Employee']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\HARSHINI PENDOTA\A...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50258/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 254cb5b9e17be6ddd99b1668a146489a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at TestLayer.HomePage.AddEmployee(HomePage.java:47)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method is-config="true" signature="quittheapp()[pri:0, instance:TestLayer.HomePage@a38c7fe]" started-at="2024-07-16T13:22:55 IST" name="quittheapp" finished-at="2024-07-16T13:22:55 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quittheapp -->
